@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+/* borders and margin */
+header, aside, section, footer, .container{
+    border: 2px solid  gray;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 600px;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+}
+
+header {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: lightgray;
+    grid-column: 1 / -1;
+}
+
+aside {
+    background-color: lightyellow;
+    grid-column: 1 / 2;
+    height: 200px;
+}
+
+section {
+    grid-column: 2 / -1;
+}
+
+footer {
+    background-color: lightgray;
+    grid-column: 1 / -1;
+}
+

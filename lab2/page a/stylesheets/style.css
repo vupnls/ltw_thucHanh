@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ .column, .columns {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.sixteen.columns {
+    width: 940px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.two-thirds.column {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.social_button {
+    margin: auto 2px;
+}
+
+.htext_style {
+    margin-right: 10px;
+}
+
+.dark {
+    color: white;
+    background-color: #333333;
+}
+
+.big_padding  {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.bold_text { font-weight: bold }
+.big_text { font-size: 20px; padding-bottom: 20px}
+.blue_text { color: #2DC0E8 }
+.big_title { font-size: 50px; padding-bottom: 20px; padding-top: 10px}
+.normal_text { color: #878787; padding-bottom: 40px }
+.btn_normal { text-decoration: none; padding: 15px; color: white; border-radius: 4px }
+.blue_bg { background-color: #2DC0E8 }
+
+.L1_style {
+    font-size: 25px;
+    width: 960px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.L2_style {
+    color: #878787;
+    font-weight: normal;
+    width: 960px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.envato_unbounce { background-color: #EEEEEE; padding-top: 40px; padding-bottom: 40px }
+
+.box_1, .box_2 {
+    display: flex;
+    width: 460px;
+    background-color: white;
+}
+
+.txt_style {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 20px;
+}
+
+.b_style {
+    padding: 20px 10px;
+    background-color: #F5F5F5F5;
+}
+
+.logo_style {
+    border-radius: 50%;
+}
+
+.center_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.f1_style {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pix_text {
+    text-align: center;
+}
+
+.f1_style .pix_text {
+    color: green;
+    font-size: 20px;
+}
+
+.f2_style {
+    width: 520px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.get_2_btn a {
+    display: block;
+    color: green;
+    font-weight: bolder;
+    text-decoration: none;
+    border: 3px solid green;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.pix_text {
+    color: #878787;
+}
+
+.pixfort_st {
+    display: block;
+    color: green;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.pix_inline_block {
+    display: inline-block;
+}

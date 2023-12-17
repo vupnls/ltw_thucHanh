@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 960px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+}
+
+.light_gray_bg {
+    background-color: #F3F3F3;
+}
+
+.small_padding { padding: 20px }
+
+.container .columns, .container .column {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.container .eight.columns {
+    width: 460px;
+}
+
+.btn_normal {
+    text-decoration: none;
+    padding: 1em 2em;
+    border-radius: 4px;
+}
+
+.right_text { text-align: right }
+
+.orange_bg { background-color: orange; color: white }
+
+.container .sixteen.columns {
+    width: 940px;
+}
+
+.navbar-toggle {
+    display: none;
+}
+
+ul, li {
+    list-style: none;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #333333;
+}
+
+.containerss {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right_socials { background-color: #EEEEEE}
+.navbar-left {
+    display: flex;
+    column-gap: 20px;
+}
+.padding_25 { padding: 25px }
+
+.pixfort_pix_slider { background-color: #F3F3F3; padding-top: 40px; padding-bottom: 40px }
+
+.pixfort_pix_slider img {
+    max-width: 940px;
+}
+
+/*------------carosel-----------------*/
+
+/*capiton*/
+.carousel-caption {
+    position: absolute;
+    color: #fff;
+    width: 100%;
+    padding: 20px;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+    box-sizing: border-box;
+}
+
+#myCarousel {
+    position: relative;
+}
+
+.carousel-inner {
+}
+
+.carousel-inner .item {
+    display: none;
+}
+
+.carousel-inner .active {
+    display: block;
+}
+
+.carousel-indicators {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end; /* Căn chỉ số về phía bên phải */
+    align-items: flex-start; /* Căn chỉ số về phía trên */
+    position: absolute;
+    top: 10px; /* Điều chỉnh khoảng cách từ phía trên */
+    right: 10px; /* Điều chỉnh khoảng cách từ phía bên phải */
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #333;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.carousel-indicators .active {
+    background-color: #ddd;
+}
+
+/* left right carosel */
+#myCarousel a { text-decoration: none }
+.carousel-control {
+    font-size: 2em;
+    color: #fff;
+    text-shadow: none;
+    background: none;
+    border: none;
+    opacity: 0.7;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.carousel-control.left {
+    left: 10px;
+}
+
+.carousel-control.right {
+    right: 10px;
+}
+
+/*section_gym_4*/
+#section_gym_4 img {
+    border-radius: 50%;
+}
+
+.part_st {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text_gym_style p {
+    text-align: center;
+}
+
+.gym_st {
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.container .one-third.column {
+    width: 33.3%;
+}
+
+#section_gym_4 .top_padding {
+    display: flex;
+}
+
+.pixfort_gym_13 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+.gym_text {
+    max-width: 200px;
+    color: #878787;
+    padding-top: 10px;
+}
+
+.link_3_btn {
+    padding-top: 20px;
+}
+
+.link_3_btn a {
+    text-decoration: none;
+    color: white;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.big_title {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.blue_text {
+    color: #2DC0E8;
+}
+
+.editContent {
+    text-align: center;
+}
+
+.light_gray {
+    font-size: 20px;
+    color: #878787;
+    margin-bottom: 30px;
+}
+
+.flat_pricing_list li {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.orange {
+    color: orange;
+}
+
+.flat_pricing {
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 3px 3px 6px #888888;
+    border: 2px solid #dddddd;
+
+}
+
+.blue_bg { background-color: #2DC0E8; color: white }
+
+.headtext_style {
+    text-align: center;
+}
+
+.pixfort_party_15 .text_input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subscribe.pix_builder_bg {
+    padidng: 100px;
+}
+
+.pixfort_party_15 .subscribe {
+    background-color: #333333;
+    padding: 60px;
+}
+
+.headtext_style {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.segment {
+    background: radial-gradient(#2d6ee8, rgba(114, 211, 243, 0.62)); /* Gradient từ màu xanh đến màu xanh lam */
+    width: 15%;
+    height: 8px;
+    margin-bottom: 20px;
+}
+
+.subtext_style {
+    font-size: 18px;
+    color: #878787;
+    text-align: center;
+}
+
+.subscribe .editContent {
+    width: 33%;
+    margin-bottom: 30px;
+}
+
+.pix_text {
+    padding: 20px;
+}
+
+.contact_st form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_st input {
+    font-size: 20px;
+    color: #EEEEEE;
+    width: 460px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+.subscribe_btn {
+    color: white;
+    font-size: 20px;
+    background: linear-gradient(to top, #2d6ee8, #72d3f3); /* Gradient từ màu xanh đến màu xanh lam */
+}
+
+#hidden_pix_15 {
+    display: none;
+}
+
+.foot_st.pix_builder_bg { background-color: #333333; padding-top: 60px; padding-bottom: 20px }
+
+.container .nine.columns { width: 50% }
+.container .seven.columns { width: 50% }
+
+.foot_st .container .sixteen.columns {
+    display: flex;
+}
+
+.foot_st .pix_text {
+    color: #878787;
+    font-size: 15px;
+}
+
+.likes_st {text-align: right}
+
+.pixfort_st {
+    color: #2d6ee8;
+    font-weight: bold;
+}

@@ -1,0 +1,31 @@
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.container .column, .container .columns {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.container .sixteen.columns {
+    width: 940px;
+}
+
+.container .ten.columns {
+    width: 600px;
+}
+
+.container .nine.columns {
+    width: 540px;
+}
+
+.container .seven.columns {
+    width: 420px;
+}
+
+.container .six.columns {
+    width: 360px;
+}
+
+.sr-only { display: none }

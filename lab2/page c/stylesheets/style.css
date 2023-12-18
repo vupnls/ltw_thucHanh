@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+ul {
+    list-style: none
+}
+
+li a {
+    text-decoration: none
+}
+
+.pix_builder_bg {
+    padding-top: 1rem;
+    padding-bottom: 1rem
+}
+
+.dark.pix_builder_bg {
+    background-color: #333333
+}
+
+.containerss {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-right {
+    display: flex;
+    column-gap: 2rem;
+}
+
+.propClone a {
+    color: white
+}
+
+.propClone .text_span {
+    color: orange
+}
+
+.has-video {
+    position: relative;
+    overflow: hidden;
+}
+
+.mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Đen mờ với độ trong suốt */
+    z-index: 1;
+}
+
+.pix_video_div {
+    position: relative;
+    z-index: 0; /* Đặt z-index thấp hơn để nằm dưới mask */
+    transform: scale(1.4);
+}
+
+.pix_video_div video {
+    max-width: 100%;
+    height: auto;
+}
+
+.section_wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2; /* Đặt z-index cao hơn để chồng lên mask */
+}
+
+.title_style .pix_text {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.subtitle_style {
+    max-width: 70%;
+    margin: 20px auto;
+}
+
+.subtitle_style .pix_text {
+    color: white;
+    font-size: 20px;
+}
+
+.email_subscribe.pix_builder_bg {
+    width: 60%;
+    padding: 1rem;
+    margin: 2rem auto;
+    background-color: #333333;
+    border-radius: 6px;
+}
+
+.email_subscribe #contact_form {
+    width: 100%;
+    display: flex;
+    column-gap: 1rem;
+}
+
+#email {
+    font-size: 15px;
+    width: 60%;
+    padding: 0.75rem;
+    border-radius: 4px;
+}
+
+#subscribe_btn_1 {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    width: 40%;
+    padding: 0.5rem;
+    background-color: orange;
+}
+
+#result {
+    display: none
+}
+
+.note_st .pix_text {
+    color: white;
+}
+
+/*----------------------------------*/
+#hidden_pix_1 {
+    display: none;
+}
+
+.zone_left {
+    display: flex;
+    flex-direction: column;
+}
+
+.psingle_item {
+    display: flex;
+    align-items: center;
+    padding: 2em;
+    column-gap: 2rem;
+}
+
+.substyle.pix_builder_bg {
+    background-color: #dddddd;
+    margin-top: 1em;
+    padding-bottom: 2rem;
+}
+
+.join_us_section .sixteen.columns {
+    display: flex;
+    padding-bottom: 4rem;
+}
+
+#section_university_5 #email, #section_university_5 #name, #section_university_5 #number, #section_university_5 #countries {
+    font-size: 15px;
+    color: #878787;
+    width: 90%;
+    padding: 1rem;
+    margin: 0.5em auto;
+    border-radius: 4px;
+    border: 1px solid #dddddd;
+}
+
+#submit_btn_6 {
+    font-size: 15px;
+    color: white;
+    background-color: #7CC576;
+    width: 90%;
+    padding: 0.75em;
+    margin-top: 0.5em;
+    border: none;
+}
+
+.title-style {
+    font-size: 20px;
+    text-align: left;
+    padding: 1rem 1rem 0.5rem 1rem;
+}
+
+.text-style {
+    font-size: 15px;
+    text-align: left;
+    padding: 0 1rem 1rem 1rem;
+    color: #878787;
+}
+
+.title_st {
+    text-align: left;
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 1rem;
+}
+
+.subject_st {
+    text-align: left;
+    font-size: 15px;
+    color: #878787;
+    font-weight: normal;
+}
+
+#hidden_pix_6 {
+    display: none;
+}
+
+.foot_st.pix_builder_bg {
+    background-color: #F3F3F3;
+}
+
+.bg_foot {
+    color: #878787;
+    display: flex;
+    align-items: center;
+}
+
+.socbuttons {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.soc_icons {
+    width: 6rem;
+    background-color: #dddddd;
+    border-radius: 4px;
+}
